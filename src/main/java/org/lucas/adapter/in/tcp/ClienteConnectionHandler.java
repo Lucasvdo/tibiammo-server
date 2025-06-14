@@ -10,7 +10,7 @@ public class ClienteConnectionHandler implements Runnable {
     private final Logger LOGGER = LoggerFactory.getLogger(ClienteConnectionHandler.class);
     private final Socket socket;
 
-    public ClienteConnectionHandler(Socket socket){
+    public ClienteConnectionHandler(Socket socket) {
         this.socket = socket;
     }
 
