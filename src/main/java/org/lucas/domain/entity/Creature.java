@@ -7,5 +7,4 @@ public abstract class Creature {
     private int health;
     private int maxMana;
     private int mana;
-
 }
